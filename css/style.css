@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;                                                
+    font-family: 'Whitney-Semibold', sans-serif;
+}
+
+html{
+    min-width: 1130px;
+}
+
+/* todo COMMON PROPERTIES */
+/* ? select option for languages */
+select{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+option{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* todo container for all sections (modificare proprietà) WIDTH 80 E FULL WIDTH  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-menu{
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 80px;
+}
+/* ***************************** */
+
+header a{
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    margin-right: 8px;
+}
+
+hr{
+    border-color:#7289da ;
+}
+
+/* ************todo CLEARFIX + FLOAT**************** */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.padding{
+    padding:100px 0;
+}
+
+.small-padding{
+    padding: 50px 0;
+}
+/* ***********************************************!!HEADER  ************** */
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/jumbo.png");
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.access-link-header a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.access-link-header > button{
+    background-color: white;
+    border:none;
+    padding: 7px 14px;
+    border-radius:15px;
+    font-weight: 600;
+}
+
+.access-link-header{
+    width: 25%;
+}
+
+
+/* *List menu */
+.header-list > li {
+    display: inline-block;
+    margin-right: 30px;
+} 
+
+.container-main-nav{
+    width: calc(50% - 80px);
+    display: inline-block;
+    text-align: center;
+    margin:0 40px;
+} 
+   /*  margin: 0 20px 0 20px; */
+
+/* ********************Logo header**************************/
+.container-logo{
+    width:25%;
+    height:80px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+/* *****************************************************/
+.container-button{
+    width: 150px;
+}
+
+.button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.color-white{
+    color: white;
+}  
+
+/* ************************************!JUMBTRON****************************/
+.title-jumbotron{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.container-paragraph{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paragrafo-jumbotron{
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.button-white{
+    background-color:whitesmoke;
+    width:180px;
+    margin-right: 20px;
+}
+
+.button-black{
+    width: 220px;
+    background-color: black;
+}
+
+.button-white>a{
+    color:black;
+}
+
+.button-black a{
+    color: white;
+}
+.container-header-jumbotron a{
+    text-decoration: none;
+}
+
+.container-header-jumbotron > .button-black{
+    transform: scale(1.5);
+    margin-left: 100px;
+}
+
+.container-header-jumbotron > .button-white{
+    transform: scale(1.5);
+}
+/* ***************************************!!!!!MAIN**************************** */
+
+.column-big{
+    width:calc(75% - 40px);
+    margin:60px 0px 0 40px ;
+ /*    background-color: rgb(166, 71, 255); */
+}
+
+.column-small{
+    width:25%;
+    /* background-color:yellow; */
+    margin:60px 0px 0 0px ;
+}
+
+.size-img-small{
+    width: 600px;
+}
+
+.paragraph-section{
+    font-weight: 600;
+    text-align: left;
+}
+
+.paragraph-section-middle{
+    font-weight: 600;
+}
+
+
+.title-section{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 900;
+}
+
+/* ************************!last section with bigger title and image */
+.title-middle{
+    font-size: 40px;
+    margin-bottom: 20px; 
+    font-weight: 900;
+}
+
+.back-grey{
+    background-color:rgba(246,246,246,255);
+}
+
+.last-section{
+    padding-top: 100px ;
+    padding-bottom: 50px;
+}
+
+.last-section a{
+    color: white;
+}
+
+.container-paragraph-four{
+    width:800px;
+    margin:0 auto;
+}
+
+.section-four-subtitle{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.background-violet{
+    background-color: #8ea1e1;
+}
+
+.last-section button{
+    transform: scale(1.3);
+    font-weight: 700;
+}
+.obj-grey{
+    filter:invert(.96);
+    
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+}
+.relative{
+    position: relative;
+}
+
+.object-rotate{
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+/* **********************************!!! Footer *********************************/
+
+footer{
+    width:100%;
+    background-color: rgba(35,39,42,255);
+    height: 500px;
+}
+
+footer a{
+    color: white;
+}
+
+.large-column-footer{
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.small-clm-footer{
+    width: calc(70% / 4);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.container-footer-list{
+    padding-top: 50px;
+}
+.container-footer-logo{
+    margin-top: 20px;
+}
+
+.color-purple{
+    color: #7289da;
+}
+
+.large-column-footer > h4{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.small-clm-footer > h5{
+    margin-bottom: 10px;
+}
+
+.footer-list > li{
+    margin-bottom:10px;
+    font-size: 0.8rem;
+}
+
+.container-opt-languages{
+    margin-bottom: 20px;
+}
+
+.container-flag{
+    margin-bottom: 15px;
+}
+
+.italy-flag{
+    width: 18px;
+}
+
+span > i{
+    color: white;
+}
+
+.logo-footer{
+    top: 30px;
+    left: 0;
+}
+
+.button-footer button{
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#size-logo-footer{
+    width:100px;
+}
